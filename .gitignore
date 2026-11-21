@@ -1,0 +1,26 @@
+# ---- Data: never commit raw or sensitive data ----
+data/raw/*
+!data/raw/.gitkeep
+# Uncomment if processed files are large or contain personal data:
+# data/processed/*
+# !data/processed/.gitkeep
+
+# ---- Secrets ----
+.env
+
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Office temp / lock files ----
+~$*
+*.tmp
+
+# ---- Editors and OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

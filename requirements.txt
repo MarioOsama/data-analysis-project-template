@@ -1,0 +1,21 @@
+# Core analysis
+pandas
+numpy
+matplotlib
+seaborn
+
+# Notebooks
+jupyter
+ipykernel
+
+# PostgreSQL from Python
+sqlalchemy
+psycopg2-binary
+python-dotenv
+
+# Statistics (Phase 4 / A/B testing projects): uncomment when needed
+# scipy
+# statsmodels
+
+# When the project is finished, pin exact versions so it reruns the same way:
+#   pip freeze > requirements.txt
